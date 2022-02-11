@@ -4,22 +4,22 @@ export const ADDRESS_ZERO = '0x0000000000000000000000000000000000000000'
 
 export const ADDRESS_LOCK = '0xffffffffffffffffffffffffffffffffffffffff'
 
-export const FACTORY_ADDRESS = '0x570797c68c6d060503b2cfcbe5780205057010d5'
+export const FACTORY_ADDRESS = '0xd9bfe9979e9ca4b2fe84ba5d4cf963bbcb376974'
 
-export const ETH_PRICING_POOLS = '0x8d040883136957c264c4cf51a8ea9b8dfb19eee7'
+export const ETH_PRICING_POOLS = '0x9de8e8c5658262cf2dd79646ac96b383d027bb8c'
 
 // minimum liquidity required to count towards tracked volume for pairs with small # of Lps
-export let MINIMUM_USD_THRESHOLD_NEW_PAIRS = BigDecimal.fromString('0')
+export let MINIMUM_USD_THRESHOLD_NEW_PAIRS = BigDecimal.fromString('4000')
 
 // minimum liquidity for price to get tracked
-export let MINIMUM_LIQUIDITY_THRESHOLD_ETH = BigDecimal.fromString('0') // default is 2
+export let MINIMUM_LIQUIDITY_THRESHOLD_ETH = BigDecimal.fromString('13') // default is 2
 
-export const WETH_ADDRESS = '0x93D51226c4C3c265ca0c2F6420fa4c6A9151c09e'
-export const DAI_ADDRESS = '0x340eefA7154BF23e328F59E936568607841FE027'
-export const USDC_ADDRESS = '0xB4BbD0250618917b3679578C58f6440A227C8c03'
-export const USDT_ADDRESS = '0x41a56c30b881296859FB4db30Eb9a639B473619B'
+export const WETH_ADDRESS = '0x82af49447d8a07e3bd95bd0d56f35241523fbab1'
+export const DAI_ADDRESS = '0xda10009cbd5d07dd0cecc66161fc93d7c9000da1'
+export const USDC_ADDRESS = '0xff970a61a04b1ca14834a43f5de4533ebddb5cc8'
+export const USDT_ADDRESS = '0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9'
 
-export const KNC_ADDRESS = '0x7596961744096D12eFa3CfA58d1D30EDd82BD396'
+export const KNC_ADDRESS = '0x0000000000000000000000000000000000000000'
 export const KNC_NAME = 'Kyber Network'
 export const KNC_SYMBOL = 'KNC'
 
@@ -29,4 +29,4 @@ export const KNCL_SYMBOL = 'KNCL'
 
 export let FACTORY_BPS = BigDecimal.fromString('10000')
 
-export let NETWORK = 'arbitrum-rinkeby'
+export let NETWORK = 'arbitrum-one'
