@@ -6,11 +6,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: DmmFactory
-    network: arbitrum-one
+    network: bittorrent
     source:
       address: '0xd9bfe9979e9ca4b2fe84ba5d4cf963bbcb376974'
       abi: DmmFactory
-      startBlock: 5823456  # contract creation block
+      startBlock: 2852345  # contract creation block
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -37,7 +37,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pool
-    network: arbitrum-one
+    network: bittorrent
     source:
       abi: Pool
     mapping:
