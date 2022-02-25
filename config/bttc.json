@@ -10,6 +10,6 @@
   "usdt_address": "0x9b5f27f6ea9bbd753ce3793a07cba3c74644330d",
   "knc_address": "0x0000000000000000000000000000000000000000",
   "kncl_address": "0x0000000000000000000000000000000000000000",
-  "minimum_usd_threshold_new_pairs": "4000",
+  "minimum_usd_threshold_new_pairs": "2",
   "minimum_liquidity_threshold_eth": "13"
 }

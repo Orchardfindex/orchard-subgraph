@@ -6,11 +6,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: DmmFactory
-    network: bittorrent
+    network: arbitrum-rinkeby
     source:
-      address: '0xd9bfe9979e9ca4b2fe84ba5d4cf963bbcb376974'
+      address: '0xf8d2017d9505287c777cd64709f24b6b777bd3bf'
       abi: DmmFactory
-      startBlock: 2852345  # contract creation block
+      startBlock: 9313494  # contract creation block
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -30,14 +30,14 @@ dataSources:
         - name: ERC20NameBytes
           file: ./abis/ERC20NameBytes.json
       eventHandlers:
-        - event: PoolCreated(indexed address,indexed address,address,uint32,uint256)
+        - event: PoolCreated(indexed address,indexed address,address,uint32,uint16,uint256)
           handler: handlePoolCreated
         - event: SetFeeConfiguration(address,uint16)
           handler: handleSetFeeConfiguration
 templates:
   - kind: ethereum/contract
     name: Pool
-    network: bittorrent
+    network: arbitrum-rinkeby
     source:
       abi: Pool
     mapping:

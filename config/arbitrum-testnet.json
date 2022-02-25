@@ -1,8 +1,8 @@
 {
   "network": "arbitrum-rinkeby",
-  "address": "0x570797c68c6d060503b2cfcbe5780205057010d5",
+  "address": "0xf8d2017d9505287c777cd64709f24b6b777bd3bf",
   "startBlock": "9313494",
-  "factory_address": "0x570797c68c6d060503b2cfcbe5780205057010d5",
+  "factory_address": "0xf8d2017d9505287c777cd64709f24b6b777bd3bf",
   "eth_pricing_pools": "0x8d040883136957c264c4cf51a8ea9b8dfb19eee7",
   "weth_address": "0x93d51226c4c3c265ca0c2f6420fa4c6a9151c09e",
   "dai_address": "0x340eefa7154bf23e328f59e936568607841fe027",
