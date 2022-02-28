@@ -8,7 +8,7 @@ dataSources:
     name: DmmFactory
     network: arbitrum-rinkeby
     source:
-      address: '0xf8d2017d9505287c777cd64709f24b6b777bd3bf'
+      address: '0x9d4ffbf49cc21372c2115ae4c155a1e5c0aacf36'
       abi: DmmFactory
       startBlock: 9313494  # contract creation block
     mapping:
