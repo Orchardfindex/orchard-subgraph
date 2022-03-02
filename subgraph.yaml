@@ -6,11 +6,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: DmmFactory
-    network: arbitrum-rinkeby
+    network: arbitrum-one
     source:
-      address: '0x9d4ffbf49cc21372c2115ae4c155a1e5c0aacf36'
+      address: '0x51e8d106c646ca58caf32a47812e95887c071a62'
       abi: DmmFactory
-      startBlock: 9313494  # contract creation block
+      startBlock: 7238400  # contract creation block
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -37,7 +37,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pool
-    network: arbitrum-rinkeby
+    network: arbitrum-one
     source:
       abi: Pool
     mapping:
