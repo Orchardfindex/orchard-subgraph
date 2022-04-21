@@ -4,23 +4,23 @@ export const ADDRESS_ZERO = '0x0000000000000000000000000000000000000000'
 
 export const ADDRESS_LOCK = '0xffffffffffffffffffffffffffffffffffffffff'
 
-export const FACTORY_ADDRESS = '0x833e4083b7ae46cea85695c4f7ed25cdad8886de'
+export const FACTORY_ADDRESS = '0xB61271d05D13A29e6379E18D533f6c1B110d46Db'
 
-export const ETH_PRICING_POOLS = '0xd478953d5572f829f457a5052580cbeaee36c1aa|0x20d6b227f4a5a2a13d520329f01bb1f8f9d2d628|0xf8467ef9de03e83b5a778ac858ea5c2d1fc47188|0xce9874c42dce7fffbe5e48b026ff1182733266cb'
+export const ETH_PRICING_POOLS = '0x967a889dbf977dd9c7b79bf422f5fa50294e56fd|0x2235d9ea40ab77f6ec88ae71634781e1b2bcc9d9|0x209d9e4cd05ff6f6aa6abe65c92ef76df36001a6'
 
 // minimum liquidity required to count towards tracked volume for pairs with small # of Lps
-export let MINIMUM_USD_THRESHOLD_NEW_PAIRS = BigDecimal.fromString('4000')
+export let MINIMUM_USD_THRESHOLD_NEW_PAIRS = BigDecimal.fromString('1')
 
 // minimum liquidity for price to get tracked
-export let MINIMUM_LIQUIDITY_THRESHOLD_ETH = BigDecimal.fromString('2') // default is 2
+export let MINIMUM_LIQUIDITY_THRESHOLD_ETH = BigDecimal.fromString('0') // default is 2
 
-export const WRAPPED_NATIVE_ADDRESS = '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
-export const DAI_ADDRESS = '0x6b175474e89094c44da98b954eedeac495271d0f'
-export const USDC_ADDRESS = '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48'
-export const USDT_ADDRESS = '0xdac17f958d2ee523a2206206994597c13d831ec7'
+export const WRAPPED_NATIVE_ADDRESS = '0x9c3c9283d3e44854697cd22d3faa240cfb032889'
+export const DAI_ADDRESS = '0x5e2de02472ac02736b43054f095837725a5870ef'
+export const USDC_ADDRESS = '0x2cec76b26a8d96bf3072d34a01bb3a4ede7c06be'
+export const USDT_ADDRESS = '0x064b91bda6d178dfe03835de9450bfe78201c43f'
 export const WETH_ADDRESS = ''
 
-export const KNC_ADDRESS = '0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202'
+export const KNC_ADDRESS = '0xfd1f9381cb641dc76fe8087dbcf8ea84a2c77cbe'
 export const KNC_NAME = 'Kyber Network'
 export const KNC_SYMBOL = 'KNC'
 
@@ -30,4 +30,4 @@ export const KNCL_SYMBOL = 'KNCL'
 
 export let FACTORY_BPS = BigDecimal.fromString('10000')
 
-export let NETWORK = 'ethereum'
+export let NETWORK = 'mumbai'
