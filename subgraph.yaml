@@ -10,7 +10,7 @@ dataSources:
     source:
       address: '0x8A366547C188412c93F2c5bdc776c8f0745545a7'
       abi: DmmFactory
-      startBlock: 8968508  # contract creation block
+      startBlock: 8000000  # contract creation block
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -40,7 +40,7 @@ dataSources:
     source:
       address: '0xAf69aDEB3cae6A072AF6aC7F6190460269eD1dbE'
       abi: KyberRewardLocker
-      startBlock: 8968508  # contract creation block
+      startBlock: 8000000  # contract creation block
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -64,7 +64,7 @@ dataSources:
     source:
       address: '0x5777d499F09f1C3F7aACFBd8e25e3e6665F88714'
       abi: KyberRewardLocker
-      startBlock: 8968508  # contract creation block
+      startBlock: 8000000  # contract creation block
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4

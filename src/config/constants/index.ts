@@ -6,7 +6,7 @@ export const ADDRESS_LOCK = '0xffffffffffffffffffffffffffffffffffffffff'
 
 export const FACTORY_ADDRESS = '0x8A366547C188412c93F2c5bdc776c8f0745545a7'
 
-export const ETH_PRICING_POOLS = '0xe8857d936E3491E4fD93a383712147bEFB803e94'
+export const ETH_PRICING_POOLS = '0x50d0b724a034940dc370294e2d6b379dae77f925'
 
 // minimum liquidity required to count towards tracked volume for pairs with small # of Lps
 export let MINIMUM_USD_THRESHOLD_NEW_PAIRS = BigDecimal.fromString('1')
@@ -21,12 +21,12 @@ export const USDT_ADDRESS = '0xbd1eeaf651aeb210106e1c1afb3bc41c388ee577'
 export const WETH_ADDRESS = ''
 
 export const KNC_ADDRESS = '0xCb76B1948F65132F2e52eD681FD26935c9E206F2'
-export const KNC_NAME = 'Kyber Network'
-export const KNC_SYMBOL = 'KNC'
+export const KNC_NAME = 'NUS Money'
+export const KNC_SYMBOL = 'NUSMoney'
 
 export const KNCL_ADDRESS = '0x57BBDeeBeF0949a669E6BEdBa63b2EDd2fb9D6f7'
-export const KNCL_NAME = 'Kyber Network Legacy'
-export const KNCL_SYMBOL = 'KNCL'
+export const KNCL_NAME = 'SPROUT Index'
+export const KNCL_SYMBOL = 'SPROUT'
 
 export let FACTORY_BPS = BigDecimal.fromString('10000')
 

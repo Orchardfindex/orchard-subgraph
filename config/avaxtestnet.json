@@ -1,9 +1,9 @@
 {
   "network": "fuji",
   "address": "0x8A366547C188412c93F2c5bdc776c8f0745545a7",
-  "startBlock": "8968508",
+  "startBlock": "8000000",
   "factory_address": "0x8A366547C188412c93F2c5bdc776c8f0745545a7",
-  "eth_pricing_pools": "0xe8857d936E3491E4fD93a383712147bEFB803e94",
+  "eth_pricing_pools": "0x50d0b724a034940dc370294e2d6b379dae77f925",
   "wrapped_native_address": "0xd00ae08403b9bbb9124bb305c09058e32c39a48c",
   "dai_address": "0xe50c0f38a1890db49d64ac1c4a5b4fe2f02f819d",
   "usdc_address": "0x5973774202e8b0ad563a69d502bb0e670e7d00dd",
@@ -15,10 +15,10 @@
   "minimum_liquidity_threshold_eth": "0",
   "reward_locker": {
     "address": "0xAf69aDEB3cae6A072AF6aC7F6190460269eD1dbE",
-    "startBlock": "8968508"
+    "startBlock": "8000000"
   },
   "reward_locker_v2": {
     "address": "0x5777d499F09f1C3F7aACFBd8e25e3e6665F88714",
-    "startBlock": "8968508"
+    "startBlock": "8000000"
   }
 }

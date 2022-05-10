@@ -21,12 +21,12 @@ export const USDT_ADDRESS = '{{ usdt_address }}'
 export const WETH_ADDRESS = '{{ weth_address }}'
 
 export const KNC_ADDRESS = '{{ knc_address }}'
-export const KNC_NAME = 'Kyber Network'
-export const KNC_SYMBOL = 'KNC'
+export const KNC_NAME = 'NUS Money'
+export const KNC_SYMBOL = 'NUSMoney'
 
 export const KNCL_ADDRESS = '{{ kncl_address }}'
-export const KNCL_NAME = 'Kyber Network Legacy'
-export const KNCL_SYMBOL = 'KNCL'
+export const KNCL_NAME = 'SPROUT Index'
+export const KNCL_SYMBOL = 'SPROUT'
 
 export let FACTORY_BPS = BigDecimal.fromString('10000')
 
