@@ -55,3 +55,27 @@ This query fetches aggredated data from all dmm pairs and tokens, to give a view
   }
 }
 ```
+### Update config file
+
+_Note_: NETWORK is the file name in `config` folder without the `.json` suffix (for example: avalanche, bsc, ethereum, ...)
+
+```shell
+NETWORK=bsc yarn router:prepare
+```
+
+### Generate the graph code
+
+```shell
+yarn router:codegen
+```
+
+### Build
+
+```shell
+yarn router:build
+```
+
+### Deploy
+
+```shell
+NETWORK=bsc yarn router:deploy

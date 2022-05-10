@@ -4,7 +4,7 @@
   "repository": "https://github.com/dynamic-amm/dmm-subgraph",
   "license": "GPL-3.0-or-later",
   "scripts": {
-    "prepare": "mustache config/mumbai.json subgraph.template.yaml > subgraph.yaml && mustache config/mumbai.json src/config/constants/index.template.ts > src/config/constants/index.ts",
+    "prepare": "mustache config/avaxtestnet.json subgraph.template.yaml > subgraph.yaml && mustache config/avaxtestnet.json src/config/constants/index.template.ts > src/config/constants/index.ts",
     "codegen": "graph codegen --output-dir src/types/",
     "build": "graph build",
     "create-subgraph": "graph create kybernetwork/kyberswap-exchange-${NETWORK:-ethereum} --node https://${NETWORK:-ethereum}-graph.kyberengineering.io/admin",
@@ -16,7 +16,8 @@
     "deploy-dev": "graph deploy piavgh/dmm-exchange-ropsten --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug",
     "deploy-semi-prod": "graph deploy piavgh/dmm-exchange-prod --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug",
     "deploy-prod": "graph deploy dynamic-amm/dynamic-amm --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug",
-    "deploy-mumbai": "graph deploy orchardfindex/mumbai --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug",
+    "deploy-mumbai": "graph deploy orchardfindex/mumbai1 --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug",
+    "deploy-fuji": "graph deploy orchardfindex/fujifirst --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug",
     "deploy-matic": "graph deploy dynamic-amm/dmm-exchange-matic --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug",
     "deploy-matic-staging": "graph deploy piavgh/dmm-exchange-matic-staging --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug",
     "deploy-bsc": "graph deploy dynamic-amm/dmm-exchange-bsc --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug",
