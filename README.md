@@ -79,3 +79,5 @@ yarn router:build
 
 ```shell
 NETWORK=bsc yarn router:deploy
+```
+
