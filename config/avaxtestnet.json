@@ -1,20 +1,20 @@
 {
   "network": "fuji",
-  "address": "0x8A366547C188412c93F2c5bdc776c8f0745545a7",
+  "address": "0x8a366547c188412c93f2c5bdc776c8f0745545a7",
   "startBlock": "8000000",
-  "factory_address": "0x8A366547C188412c93F2c5bdc776c8f0745545a7",
+  "factory_address": "0x8a366547c188412c93f2c5bdc776c8f0745545a7",
   "eth_pricing_pools": "0x50d0b724a034940dc370294e2d6b379dae77f925",
   "wrapped_native_address": "0xd00ae08403b9bbb9124bb305c09058e32c39a48c",
   "dai_address": "0xe50c0f38a1890db49d64ac1c4a5b4fe2f02f819d",
   "usdc_address": "0x5973774202e8b0ad563a69d502bb0e670e7d00dd",
   "usdt_address": "0xbd1eeaf651aeb210106e1c1afb3bc41c388ee577",
-  "knc_address": "0xCb76B1948F65132F2e52eD681FD26935c9E206F2",
-  "kncl_address": "0x57BBDeeBeF0949a669E6BEdBa63b2EDd2fb9D6f7",
+  "knc_address": "0xcb76b1948f65132f2e52ed681fd26935c9e206f2",
+  "kncl_address": "0x57bbdeebef0949a669e6bedba63b2edd2fb9d6f7",
   "weth_address": "",
   "minimum_usd_threshold_new_pairs": "1",
   "minimum_liquidity_threshold_eth": "0",
   "reward_locker": {
-    "address": "0xA4712a6f199D3Ac21C9531f6151897F53da7A8e1",
+    "address": "0xa4712a6f199d3ac21c9531f6151897f53da7a8e1",
     "startBlock": "8000000"
   }
 }

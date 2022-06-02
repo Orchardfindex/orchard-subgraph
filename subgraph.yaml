@@ -8,7 +8,7 @@ dataSources:
     name: DmmFactory
     network: fuji
     source:
-      address: '0x8A366547C188412c93F2c5bdc776c8f0745545a7'
+      address: '0x8a366547c188412c93f2c5bdc776c8f0745545a7'
       abi: DmmFactory
       startBlock: 8000000  # contract creation block
     mapping:
@@ -38,7 +38,7 @@ dataSources:
     name: KyberRewardLocker
     network: fuji
     source:
-      address: '0xA4712a6f199D3Ac21C9531f6151897F53da7A8e1'
+      address: '0xa4712a6f199d3ac21c9531f6151897f53da7a8e1'
       abi: KyberRewardLocker
       startBlock: 8000000  # contract creation block
     mapping:
